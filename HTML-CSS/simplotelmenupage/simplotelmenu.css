@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Garamond', sans-serif;
+}
+
+.explore-menu-section {
+    background-image: linear-gradient(to right, #FF6EC7, #FF9994, #ece75f);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu-section-heading {
+    color: #ffffff;
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: "Garamond";
+
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item-card {
+    background-color: white;
+    border-radius: 0px;
+    border-top-right-radius: 56px;
+    border-bottom-left-radius: 56px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    width: calc(100% / 3 - 30px);
+    max-width: 300px;
+    text-align: left;
+    font-family: "Garamond";
+}
+
+.menu-item-image {
+    border-radius: 0px;
+    border-top-right-radius: 56px;
+    width: 100%;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 24px;
+    font-family: "Garamond";
+}
+
+.banner-caption {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Garamond";
+}
+
+.order-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    color: black;
+    background-color: #FFB2AE;
+    width: 150px;
+    height: 55px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Garamond";
+}
+
+@media (max-width: 992px) {
+    .menu-item-card {
+        width: calc(50% - 30px);
+        font-family: "Garamond";
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-item-card {
+        width: calc(100% - 30px);
+        font-family: "Garamond";
+    }
+}
