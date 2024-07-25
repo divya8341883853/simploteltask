@@ -3,7 +3,7 @@
 
 Here is the deployed link:
 
-"https://simplotelhome.ccbp.tech/"
+https://simplotelhome.ccbp.tech/
 
 Order page in the home page:
 
